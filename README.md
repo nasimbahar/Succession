@@ -1,4 +1,5 @@
 # Succession
+# Note:The source code will be available soon
 This system devloped based on PM-IBS Process model. 
 This repository contains the implementation of a blockchain-based property registration and succession system. The system automates property registration, death certificate issuance, and property succession using Ethereum smart contracts. These contracts, embedded with notary algorithms, ensure the authenticity and accuracy of property records and ownership succession.
 
