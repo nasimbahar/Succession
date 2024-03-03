@@ -1,0 +1,122 @@
+.viewTestament {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testament-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(9, 9, 9, 0.3);
+    border-radius: 0.5em;
+    max-width: 170vh;
+    min-width: 150vh;
+    margin: 10 auto;
+  }
+  
+  .testament-header {
+    background-color: rgba(9, 9, 9, 0.3);
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .testament-content {
+    margin: 30px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .testament-table {
+    width: 100%;
+    min-width: 900px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: white;
+  }
+
+  
+  .testament-header {
+    background-color: rgba(9, 9, 9, 0.3);
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .testament-row:nth-child(even) {
+    background-color: rgba(9, 9, 9, 0.3);
+  }
+  
+  .testament-row:hover {
+    background-color: rgba(9, 9, 9, 0.5);
+  }
+  
+  .testament-row td {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  .testament-value {
+    color: hsl(330, 80%, 60%);
+    font-size: 2em;
+    font-weight: bold;
+    display: flex;
+    width: 20vh;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #000000;
+    border-radius: 0.25rem;
+  }
+
+  .distributeBtn {
+    background-color: #E11299;
+    
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    max-width: 15%;
+    cursor: pointer;
+    margin: 20px auto 10px;
+  }
+  
+  .distributeBtn:hover {
+    background-color: hsl(330, 80%, 60%);
+  }
+
+  .cancelBtn {
+    background-color: rgba(9, 9, 9, 0.3);
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    max-width: 30vh;
+    cursor: pointer;
+    margin: 0 auto 10px;
+  }
+
+  .cancelBtn:hover {
+    background-color: #e11212fb;
+  }
+  
+  .text p {
+    color: #48a9a6;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 1.4em;
+  }

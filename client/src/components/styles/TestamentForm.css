@@ -1,0 +1,166 @@
+.containterDiv{
+  min-height: 85vh;
+}
+
+.testament-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.address-container {
+  margin-top: 1em;
+  background-color: rgba(9, 9, 9, 0.3);
+  border-radius: 0.5em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+  
+  .address-input {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 1%;
+    margin-top: 0rem;
+    align-items: center;
+  }
+  
+  .address-input label {
+    flex: 1; /* Allow label to grow and take available space */
+    margin-bottom: 0.5rem;
+    margin: 0.5rem;
+    font-weight: 400;
+    color: white;
+    font-size: large;
+  }
+
+  .address-input .percentage-label {
+    max-width: 5em;
+  }
+
+  .address-input .address-label {
+    min-width: 24em;
+  }
+  
+  .address-input input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #000000;
+    font-size: 0.9em;
+    border-radius: 0.25rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  
+  .remove-address-button {
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    background-color: rgba(9, 9, 9, 0.3);
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .remove-address-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .add-address-button {
+    background-color: rgb(37, 162, 15);
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .add-address-button:hover {
+    background-color: rgba(33, 147, 13);
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: rgb(255, 255, 255);
+    margin-bottom: 1rem;
+  }
+  
+  .submit-button {
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #1976d2;
+  }
+
+  .submit-button {
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #E11299;
+    color: #fff;
+    border: none;
+    margin: 20px 10px 20px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    min-width: 10em;
+  }
+
+  .submit-button:hover {
+    cursor: pointer;
+    background-color: hsl(330, 80%, 60%);
+  }
+
+  .value-input {
+    display: inline-block;
+    width: 3em;
+    height: 2em;
+    padding-left: 0.5rem;
+    color: hsl(330, 80%, 60%);
+    font-size: 2em;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    background:none;
+  }
+
+  .value-label {
+    display: inline-block;
+    color: hsl(330, 80%, 60%);
+    font-size: 2em;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+
+  .value-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .input-div{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #000000;
+    border-radius: 0.25rem;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

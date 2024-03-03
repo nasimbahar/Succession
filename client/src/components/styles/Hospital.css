@@ -1,0 +1,70 @@
+.containerDiv {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    /* background-image: url("https://imageio.forbes.com/specials-images/imageserve/62c71e6f2608b58569baebe8/0x0.jpg?format=jpg&width=1200");
+    background-color: #cccccc;
+    background-repeat: no-repeat; /* Do not repeat the image 
+    background-size: cover;*/
+  }
+
+.demiseDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(9, 9, 9, 0.3);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110vh;
+    margin:20vh auto 0;
+
+}  
+    
+    .welcomeText p {
+      color: white;
+      max-width: 75%;
+      margin: 0 auto;
+      text-align: center;
+      line-height: 2;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+      line-height: 2;
+    }
+  
+    .demiseBtn {
+      font-size: 1.5rem;
+      padding: 20px;
+      border-radius: 10px;
+      background-color: #E11299;
+      color: #fff;
+      border: none;
+      margin: 30px auto 30px;
+      display: block;
+      font-family: 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+  
+    .demiseBtn:hover {
+      cursor: pointer;
+      background-color: hsl(330, 80%, 60%);
+    }
+
+.addressInput{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #000000;
+    border-radius: 0.25rem;
+    color: hsl(330, 80%, 60%);
+    width: 30em;
+    height: 2em;
+    padding-left: 0.5rem;
+    font-size:1.5em;
+    font-weight: bold;
+    margin: 30px auto 0;
+    text-align: center;
+}
+
+/* .addressInput::placeholder{
+    text
+} */
+    

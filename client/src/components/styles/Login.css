@@ -1,0 +1,46 @@
+.containerDiv {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  /* background-image: url("https://imageio.forbes.com/specials-images/imageserve/62c71e6f2608b58569baebe8/0x0.jpg?format=jpg&width=1200");
+  background-color: #cccccc;
+  background-repeat: no-repeat; /* Do not repeat the image 
+  background-size: cover;*/
+}
+
+.welcomeText {
+    background-color: rgba(9, 9, 9, 0.3);
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .welcomeText p {
+    color: white;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 2;
+  }
+
+  .loginBtn {
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #E11299;
+    color: #fff;
+    border: none;
+    margin: 100px auto 100px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
+
+  .loginBtn:hover {
+    cursor: pointer;
+    background-color: hsl(330, 80%, 60%);
+  }
+  
